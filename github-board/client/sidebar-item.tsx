@@ -12,7 +12,7 @@ import { BOARD_SCREEN_ID } from "./screen";
 export function BoardSidebarItem({ currentScreen, openScreen }: PluginSidebarItemProps) {
   return (
     <SidebarRow
-      icon="Github"
+      icon="GitBranch"
       active={currentScreen?.screenId === BOARD_SCREEN_ID}
       onPress={() => openScreen({ screenId: BOARD_SCREEN_ID })}
     />
